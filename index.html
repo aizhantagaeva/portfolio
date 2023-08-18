@@ -381,22 +381,23 @@
                                             <p class="help-block text-danger"></p>
                                         </div>
                                         <div class="control-group col-sm-6">
-                                            <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                            <label for="email">Email</label><input type="email" class="form-control p-4" id="email" placeholder="Your Email"
                                                 required="required" data-validation-required-message="Please enter your email" />
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
                                     <div class="control-group">
-                                        <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                        <label for="subject">Subject</label><input type="text" class="form-control p-4" id="subject" placeholder="Subject"
                                             required="required" data-validation-required-message="Please enter a subject" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                        <label for="description">Message</label><textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
                                             required="required"
                                             data-validation-required-message="Please enter your message"></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
+                                    <input type="hidden"  id="external" name="external" value="1" /><br>
                                     <div>
                                         <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Send Message</button>
                                     </div>
