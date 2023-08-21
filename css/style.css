@@ -9694,7 +9694,7 @@ h4, h5, h6 {
   list-style-type: none;
 }
 
-.test-class {
+/* .test-class {
   font-size: 10;
   color: red;
   border: 10px solid powderblue;
@@ -9708,6 +9708,6 @@ h4, h5, h6 {
   padding: 30px;
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 50px;;
-}
+  margin-bottom: 50px;
+} */
 
