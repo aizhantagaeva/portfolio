@@ -9693,3 +9693,14 @@ h4, h5, h6 {
   padding: 0;
   list-style-type: none;
 }
+
+.test-class {
+  font-size: 10;
+  color: yellow;
+  border: 10px;
+  background-color: wheat;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/501/564/original/blue-sky-background-with-clouds-and-sunlight-free-vector.jpg");
+  border-radius: 20%;
+  margin-left: 10px;
+  margin-right: 20px;
+}
