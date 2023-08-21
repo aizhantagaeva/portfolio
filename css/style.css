@@ -9696,15 +9696,16 @@ h4, h5, h6 {
 
 .test-class {
   font-size: 10;
-  color: yellow;
-  border: 10px;
+  color: red;
+  border: 10px solid powderblue;
   background-color: wheat;
   background-image: url("https://static.vecteezy.com/system/resources/previews/006/501/564/original/blue-sky-background-with-clouds-and-sunlight-free-vector.jpg");
   border-radius: 20%;
   margin-left: 10px;
   margin-right: 20px;
+  font-family: courier;
+  font-weight: 600;
+  padding: 30px;
+  text-align: center;
 }
 
-.happy {
-	cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
-}
